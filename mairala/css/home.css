@@ -83,13 +83,15 @@ nav .nav-item .nav-link {
   color: #fff;
 }
 
+.navbar-nav li.nav-item a {
+  margin-right: 4px;
+}
+
 .navbar-dark .navbar-toggler {
   color: #fff;
   border-color: #fff;
 }
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+
 .main {
   padding: 20px 0 0;
 }
@@ -221,12 +223,15 @@ footer p {
   display: block;
   width: 100%;
   height: 36px;
-  border-width: 0 0 2px 0;
+  border-width: 0 0 3px 0;
+  border-spacing: 3cm ;
   border-color: black;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-}
+}  
+
+
 .contact-form .input-text:focus {
   outline: none;
 }
@@ -261,7 +266,7 @@ footer p {
   border: 1px solid black;
   width:200px;
   cursor: pointer;
-  margin-left: 34%;
+  margin-left: 20.5px;
 }
 
 .formulario{
@@ -289,3 +294,115 @@ background-color: #f3f3f3;
   color:red;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+  
+ 
+}
+
+.image-text h1{
+  margin-left: -30%;
+}
+
+.image-text h7{
+  margin-left: -77%;
+}
+
+.image-text{
+  margin-left: -10%;
+}
+
+
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.image-text h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.image-text p {
+  font-size: 1em;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-text h7 {
+  font-size: 1.5em; /* el tamaño de la fuente es 1.5 veces el tamaño de la fuente de la etiqueta padre */
+}
+
+.image-text h1 {
+  font-size: 2.5em; /* el tamaño de la fuente es 2.5 veces el tamaño de la fuente de la etiqueta padre */
+}
+
+.navbar-nav .nav-link {
+  margin-right: 0;
+}
+
+/* Default styles */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+/* boton */
+@media only screen and (max-width: 1000px) {
+  .image-text {
+    display:inline;
+  }
+}
+
+.uno{
+    color: #7b6c63;
+    
+}
+
+.dos{
+  margin-right: -40px;
+}
+
+.tres{
+  margin-left: -90% ;
+}
+
+/* Footer*/
+
+.text-carrusel{
+  margin-top: 3%;
+  text-align: center;
+}
+
+.color{
+  color: #5e5e5e;
+}
+
+.recent-post{
+  margin-top: 30%;
+}
+
+.recent{
+  margin-top: 4%;
+}
